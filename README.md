@@ -14,3 +14,13 @@ sudo apt install python3
 ```
 sudo apt install python3-pip
 ```
+## Creacion de entorno virtual
+```
+python -m venv Tello
+source /Tello/bin/activate
+```
+## Instalacion de las librerias para manejar el drone
+```
+pip install av djitellopy numpy opencv-python pillow pip setuptools wheel
+```
+
